@@ -1,0 +1,13 @@
+*******   & ********
+& - gets and address of variable
+a = 5 \\ a variable is equals to  value  - 5, if you go to address 'a' you will get '5' value
+&a = address of  variable a , it will be like 0x587756,  this address stores value '5'
+
+
+******** * ********
+* - show value, stored in current address
+a=5 \\ declare varialbe with value 5
+int* p \\ declare pointer
+p = &a \\  pointer p  points on  address of a variable 
+p  is equal to address of "a" variable, for example 0x123
+*p = 5 \\ *unpacks the value stored in address 'p' and equals to '5'
