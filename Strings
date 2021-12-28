@@ -1,2 +1,0 @@
-String is array of chars, writes in doublequotes.
-"STRING\0" Zero in the end (binary 00000000) shows the end of the string.
