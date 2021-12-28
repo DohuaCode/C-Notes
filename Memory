@@ -10,4 +10,18 @@ a=5 \\ declare varialbe with value 5
 int* p \\ declare pointer
 p = &a \\  pointer p  points on  address of a variable 
 p  is equal to address of "a" variable, for example 0x123
-*p = 5 \\ *unpacks the value stored in address 'p' and equals to '5'
+*p = 5 \\ unpacks the value stored in address 'p' and equals to '5'
+
+*******POINTER*******
+Variable which stores an address of  another variable, has a memory address datatype
+Has an datatype specifier like int, char, float
+8 BYTE SIZE
+
+#include <stdio.h>
+
+int main(void)
+{
+   int n = 50;
+   int *p = &n;
+   printf("%p\n", p);
+}
